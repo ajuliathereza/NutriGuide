@@ -46,7 +46,7 @@ function calculateProteina() {
         // Cálculo da quantidade recomendada de proteína
         const quantidadeProteina = 2 * pesoCorporal;
         const result = document.getElementById('resultado');
-        result.innerHTML = 'Proteína recomendada: ' + quantidadeProteina + ' gramas por dia';
+        result.innerHTML = 'Proteína recomendada: ' + quantidadeProteina + ' gramas';
         go(2, 3);
     }
 }
