@@ -3,6 +3,7 @@ body{
     background: linear-gradient(to right, rgb(0, 0, 0), rgb(93, 95, 152));
     text-align: center;
     color: #fff;
+    
 
 }
 .container{
@@ -10,7 +11,7 @@ body{
     top: 35%;
     left: 50%;
     transform: translate(-50%,-70%);
-    width: 70%;
+    width: 80%;
     background-color: rgba(102, 113, 213, 0.5);
     padding: 1em;
     border-radius: 10px;
@@ -40,5 +41,7 @@ input{
 }
 #resultado{
     font-size: 15px;
+    text-align: start;
+    text-justify: inter-word;
 }
 
