@@ -2,38 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style.css">
-    <title>macro</title>
-
+    <title>Macro</title>
 </head>
 <body>
-    <h1>macro</h1>
+    <h1>GUIA</h1>
     <div class="container">
         <div class="first-step">
-            <p>calculadora de IMC</p>
-            <button onclick="go(1,2)">iniciar</button>
+            <p></p>
+            <button onclick="go(1,2)">Iniciar</button>
         </div>
-        <div class="second-step">
-            <h3>calculadora de IMC</h3>
+        <div class="second-step" style="display: none;">
+            <h3>Para os seus resultados:</h3>
             <hr>
-            <label for="peso">seu peso:</label>
+            <label for="peso">Peso:</label>
             <input type="number" placeholder="Seu peso" id="peso">
             <br><br>
-            <label for="altura">sua altura:</label>
-            <input type="number" placeholder="Seu altura" id="altura">
+            <label for="altura">Altura:</label>
+            <input type="number" placeholder="Sua altura" id="altura">
             <br><br>
-            <button onclick="validate()">calcular</button>
+            <label for="idade">Idade:</label>
+            <input type="number" placeholder="Sua idade" id="idade">
+            <br><br>
+            <button onclick="calculateProteina()">Calcular</button>
         </div>
-        <div class="final-step">
-            <h3>resultado</h3>
+        <div class="final-step" style="display: none;">
+            <h3>Resultado</h3>
             <p id="resultado"></p>
-            <button onclick="go(3,2)">calcular novamente</button>
-            <button onclick="go(3,1)">finalizar</button>
+            <button onclick="go(3,2)">Calcular Novamente</button>
+            <button onclick="go(3,1)">Finalizar</button>
         </div>
     </div>
 
+    <script src="./src/script.js"></script>
 </body>
-<script src="./src/script.js"></script>
 </html>
