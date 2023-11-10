@@ -61,7 +61,7 @@ function calculateMacroConsumption() {
         const consumoAgua = 35 * pesoCorporal;
         
         const result = document.getElementById('resultado');
-        result.innerHTML = `Proteína: ${quantidadeProteina.toFixed(2)} gramas<br>Carboidratos: ${quantidadeCarboidratos.toFixed(2)} gramas<br>Gordura: ${quantidadeGordura.toFixed(2)} gramas<br>Consumo de água: ${consumoAgua.toFixed(2)} litros `;
+        result.innerHTML = `Proteína: ${quantidadeProteina.toFixed(2)} gramas<br>Carboidratos: ${quantidadeCarboidratos.toFixed(2)} gramas <br>Gordura: ${quantidadeGordura.toFixed(2)} gramas<br>Consumo de água: ${consumoAgua.toFixed(2)} litros `;
         go(2, 3);
     }
 }
