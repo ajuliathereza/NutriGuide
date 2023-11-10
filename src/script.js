@@ -48,7 +48,7 @@ function calculateMacroConsumption() {
         const alturaCorporal = parseFloat(altura.value);
         const idadePessoa = parseInt(idade.value);
 
-        // Cálculo da quantidade recomendada de proteína (sem considerar a idade)
+        // Cálculo da quantidade recomendada de proteína (2x peso corporal)
         const quantidadeProteina = 2 * pesoCorporal;
 
         // Cálculo da quantidade recomendada de carboidratos (3x peso corporal)
